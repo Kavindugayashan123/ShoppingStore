@@ -11,7 +11,6 @@ const signupSchema = new Schema
 }, {
     timestamps: true,
 });
-s
 const Signup = mongoose.model('Signup', signupSchema);
 
 module.exports = Signup;
